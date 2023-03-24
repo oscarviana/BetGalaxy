@@ -1,0 +1,664 @@
+.colorA{
+    color:#FFFFFF
+}
+
+.colorB{
+    color:#E7A7FF
+}
+
+.colorC{
+    color:#05D5F5
+}
+
+body{
+    color: white;
+    background: radial-gradient(#653c84 0%, #281b41 100%) no-repeat;
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.shadowGalaxy{
+    background-image: url(shadowGalaxy.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.navbar{
+    padding: 16px 0;
+}
+
+.navbar-nav{
+    margin: 0 auto;
+}
+
+.navbar-nav a{
+    margin: 0 7px;
+    background: linear-gradient(#ffbc60 0%, #ff8c22 100%);
+    border:#ff8c22;
+    color: #fff!important;
+    font-weight: 600 !important;
+    line-height: 1;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px!important;
+    height: 43px;
+}
+
+.navbar-nav a img{
+    padding-right: 10px;
+}
+
+.sectionA{
+    background-image: url(polvoGalactico.svg);
+    position: relative;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.planeta01 img{
+    position: relative;
+    z-index: 2;
+}
+
+.planets{
+    position: absolute;
+    z-index: 1;
+    top: 98px;
+    width: 100%;
+    height: 600px;
+}
+
+.planets .planet02{
+    position: absolute;
+    left: 60px;
+}
+
+.planets .cohete1{
+    position: absolute;
+    left: 500px;
+}
+
+.planets .star1{
+    position: absolute;
+    left: 350px;
+    top: 80px;
+}
+
+.planets .dimon1{
+    position: absolute;
+    left: 390px;
+    bottom: 140px;
+    z-index: 2;
+}
+
+.planets .planet03{
+    position: absolute;
+    bottom: 139px;
+    left: 256px;
+    z-index: 2;
+}
+
+.planets .planet04{
+    position: absolute;
+    bottom: 160px;
+    left: 347px;
+}
+
+
+.planets .planet05{
+    position: absolute;
+    right: 70px;
+    top: 62px;
+}
+
+.planets .bell01{
+    position: absolute;
+    right: 50px;
+    top: 20px; 
+    z-index: 2;
+}
+
+.planets .corona01{
+    position: absolute;
+    right: 280px;
+    top: 200px; 
+    z-index: 2;
+}
+
+.planets .ticket01{
+    position: absolute;
+    right: 400px;
+    bottom: 80px; 
+}
+
+.sectionNave{
+    max-width: 529px;
+    margin: 192px auto 0;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+}
+
+.sectionNave .mascota{
+    max-width: 166px;
+    margin-bottom: -70px;
+}
+
+
+.planeta01{
+    margin: 0 auto;
+    width: 284px;
+    margin-top: -230px;
+}
+
+.juegaAqui{
+    width: 200px;
+    margin: 20px auto 0;
+    z-index: 5;
+    position: relative;
+}
+
+.juegaAquiBtn{
+    background: #60CEFF;
+    border: #3ac0f9;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.juegaAquiBtn:hover{
+    background: #2fa8dc;
+    border: #3ac0f9;
+    color: white;
+    font-size: 28px;
+}
+
+.juegaAqui p{
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.juegaAqui .siguenos{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+.juegaAqui .socialNet{
+    width: 50.66px;
+    height: 50.66px;
+    border-radius: 50%;
+    background: linear-gradient( rgba(28, 21, 42, 0) 0%,  #1c152a 100%);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialNetInt{
+    width: 34.57px;
+    height: 34.57px;
+    border-radius: 50%;
+    background: linear-gradient(#ad4bea 0%, #643b95 100%);
+    border: 1px solid #8d43cc;
+}
+
+.socialNetInt img{
+    margin: 0 -1px;
+    width: 40px;
+}
+
+.burbuja{
+    background: url(../img/globo-home.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    height: 160px;
+    width: 380px;
+    right: 16%;
+    top: 80px;
+    z-index: 3;
+    position: relative;
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 81px;
+}
+
+/* Section B */
+
+.sectionB{
+    padding-top: 58px;
+}
+
+.sectionB h2{
+        font-weight: 800;
+        font-size: 44px;
+        color:#E7A7FF;
+        font-style: italic;
+}
+
+.bitelGame{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.planetking{
+    width: 200px;
+    display: inline;
+    z-index: 1;
+    position: absolute;
+    right: 49%;
+    margin-top: 92px;
+}
+
+.cardGanafondo{
+    position: relative;
+    width: 420px;
+    height: 279.38px;
+    background: linear-gradient(#fff 0%, #00c5e3 100%);
+    filter: drop-shadow(0px 33px 36px rgba(0, 0, 0, 0.16)); 
+    z-index: 1;
+    top: 0; 
+    border-radius: 20px;  
+}
+
+.cardGana{
+    position: relative;
+    width: 420px;
+    height: 279.38px;
+    background: linear-gradient(#653c84 0%, #281b41 100%);
+    filter: drop-shadow(0px 33px 36px rgba(0, 0, 0, 0.16));
+    z-index: 2; 
+    top: -290px;
+    left: 8px;
+    border-radius: 20px; 
+}
+
+.listaGana{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.listaGana img{
+    width: 38px;
+    height: 38px;
+}
+
+.listaGana .listaTicket{
+    width: 40px;
+    height: 42px; 
+}
+
+.listaGana span{
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 10px;
+    border-bottom: 1px solid ;
+    padding-bottom: 5px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.cardPremios{
+    width: 769.4px;
+    height: 262.55px;
+    border-radius: 23px;
+    background: linear-gradient(#008ea3 0%, #00c5e3 100%);
+}
+
+.cardPremios .btn{
+    width: 282.27px;
+    height: 69.92px;
+    background: linear-gradient(#dd69f8 0%, #630a84 100%);
+    border-radius: 30px;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+
+.btnRegMonedas {
+    position: relative;
+}
+
+.btnRegMonedas::after {
+    content: '';
+    background-image: url(../img/star1.png);
+    background-size: 48px;
+    background-repeat: no-repeat;
+    left: -20px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -13px;
+    rotate: 24deg;
+}
+
+.btnRegMonedas:hover{
+    background: linear-gradient( #630a84 0%, #dd69f8 100%);
+}
+
+.cardPremios2{
+    width: 769.4px;
+    height: 229.97px;
+    border-radius: 23px;
+    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
+}
+
+/* Section C */
+
+.sectionC h2{
+    font-weight: 700;
+    font-size: 51px;
+    color:#E7A7FF;
+    padding-bottom: 70px;
+}
+
+/* Section D */
+
+.titleD{
+    padding: 70px 40px 20px;    
+}
+
+.sectionD h2{
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+
+.sectCards{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.cardA,
+.cardB{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardA img{
+    position: relative;
+    height: 390px;
+    margin-left: -160px;
+    margin-top: -95px;
+}
+
+.cardA .card-body{
+    margin-left: -60px;
+}
+
+.cardA h4{
+    font-size: 29px;
+    line-height: 29px;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.cardA .btn{
+    margin: 20px;
+}
+
+.cardA p{
+    width: 561px;
+    height: 109px;
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.cardB .premiosAcomula{
+    position: relative;
+    height: 440px;
+    margin-right: -160px;
+    margin-top: -95px;
+}
+
+.cardB h4{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+    text-shadow: 0px 13px 16px rgba(0, 0, 0, 0.16);
+    padding: 20px 0 0 40px;
+}
+
+
+
+.cardB p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: left;
+    color: #fff;
+    
+}    
+
+.cardB span{
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 29px;
+    text-align: left;
+    color: #fff;
+}    
+
+.bloqueCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    padding-left: 31px;
+}
+
+.winTicket{
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.PremiosText{
+    margin: 131px 60px 0;
+}
+
+.obtenPremios{
+    background: url(../img/bgCombo.png);
+    background-repeat: no-repeat;
+    height: 669px;
+    background-position: center;
+
+}
+
+
+.sectionE .container{
+    padding: 42px 0 80px;
+}
+
+.sectionE h2{
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+.sectionE .planetaPremios{
+    max-width: 571px;
+    margin: 0 auto;
+    display: block;
+}
+
+.PremiumSec dev{
+    padding-left: 104px;
+}
+
+.sectionE .BtnPremium{
+    width: 340px;
+    height: 48.34px;
+    background: linear-gradient(#008ea3 0%, #00c5e3 100%);
+    filter: drop-shadow(0px 23px 26px rgba(0, 0, 0, 0.16));
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: left;
+    position: relative;
+    padding-left: 36px;
+    margin: 20px 0 10px;
+}
+
+
+.BtnPremium::before{
+    content: '';
+    background-image: url(../img/corona1.png);
+    background-size: 95px;
+    background-repeat: no-repeat;
+    right: -20px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -22px;
+    rotate: 40deg;
+    text-transform: uppercase;
+}
+
+.BtnPremium:hover{
+    background: linear-gradient( #00c5e3 100%, #008ea3 0%);
+}
+
+
+.premiumLeft{
+    padding-left: 20%;
+}
+
+.sectionF{
+    padding: 60px 0 40px;
+}
+
+.sectionF h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.1;
+}
+
+.dimonF{
+    width: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sectionG {
+    margin: 0 auto;
+    position: relative;
+    background-image: url(polvoGalactico.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
+}
+
+.sectionG .container-fluid{
+    margin: 0 auto;
+    position: relative;
+    background-image: url(shadowPlanets2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px; 
+}
+
+.shadowPlanetsB{
+    justify-content: center;
+    display: flex;
+}
+
+.sectionNaveB{
+    max-width: 529px;
+    align-items: center;
+    z-index: 5;
+    position: relative;
+}
+
+.sectionNaveB .mascota2{
+    margin-top: 190px;
+    z-index: 2;
+    margin-left: 68px;
+}
+
+.bitelAventuras2{
+    position: relative;
+    z-index: 3;
+    margin-top: 10px;
+    margin-left: 63px;
+    max-width: 540px;
+}
+
+
+.palentfA{
+    width: 320px;
+    position: absolute;
+    top: 260px;
+    left: 400px;
+}
+
+.palentfB{
+    position: absolute;
+    margin-left: 59px;
+    margin-top: 269px;
+    width: 379px;
+}
+
+.palentfC{
+    position: absolute;
+    top: 150px;
+}
+
+.dimonfA{
+    position: absolute;
+    top: 330px;
+    left: 400px;
+    width: 90px;
+    rotate: 24deg;
+}
+
+.starFA{
+    position: absolute;
+    width: 30px;
+    rotate: 24deg;
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.starFB{
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
