@@ -16,6 +16,8 @@ body{
     min-height: 100vh;
     height: 100%;
     font-family: 'Exo 2', sans-serif;
+    background-image: url(bitel-bg.jpg);
+    background-size: cover;
 }
 
 .shadowGalaxy{
@@ -372,6 +374,18 @@ body{
 
 /* Section D */
 
+.sectionD{
+    background: radial-gradient(#0dbea3 0%, #004167 100%);
+    background-image: url(bg2-azul.jpg);
+    background-size: cover;
+}
+
+.starDa{
+    position: absolute;
+    right: 6%;
+    margin-top: 80px;
+}
+
 .titleD{
     padding: 70px 40px 20px;    
 }
@@ -500,8 +514,9 @@ body{
 }
 
 
-.sectionE .container{
-    padding: 42px 0 80px;
+
+.sectionC .container{
+    padding: 42px 0 0;
 }
 
 .sectionE h2{
@@ -559,10 +574,17 @@ body{
 
 .premiumLeft{
     padding-left: 20%;
+    background-image: url(../img/star1.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 
 .sectionF{
     padding: 60px 0 40px;
+    background: radial-gradient(#0dbea3 0%, #004167 100%);
+    background-image: url(bg2-azul.jpg);
+    background-size: cover;
 }
 
 .sectionF h2{
@@ -575,6 +597,23 @@ body{
     width: 110px;
     display: block;
     margin: 0 auto;
+}
+
+.starPa{
+    position: absolute;
+    right: 25%;
+    rotate: 57deg;
+}
+
+.starPb{
+    rotate: 57deg;
+    left: 19%;
+    position: absolute;
+}
+
+.coronaP{
+    position: absolute;
+    right: 10%;
 }
 
 .sectionG {
@@ -608,7 +647,7 @@ body{
 }
 
 .sectionNaveB .mascota2{
-    margin-top: 190px;
+    margin-top: -294px;
     z-index: 2;
     margin-left: 68px;
 }
@@ -621,12 +660,11 @@ body{
     max-width: 540px;
 }
 
-
 .palentfA{
     width: 320px;
     position: absolute;
     top: 260px;
-    left: 400px;
+    left: 18%;
 }
 
 .palentfB{
@@ -639,12 +677,13 @@ body{
 .palentfC{
     position: absolute;
     top: 150px;
+    right: 17%;
 }
 
 .dimonfA{
     position: absolute;
     top: 330px;
-    left: 400px;
+    left: 18%;
     width: 90px;
     rotate: 24deg;
 }
@@ -662,3 +701,22 @@ body{
     bottom: 50px;
     right: 40px;
 }
+
+.sectionNaveB .cohete-footer{
+    z-index: 2;
+    margin-left: 80%;
+    margin-top: 120px;
+}
+
+/* carousels */
+
+#owl-demo .item{
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }

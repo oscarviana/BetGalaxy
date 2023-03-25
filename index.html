@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitel Galaxy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800;&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800;&display=swap" rel="stylesheet">
+</head>
 <body>
     <section class="sectionA">
       <div class="shadowGalaxy">
@@ -157,14 +159,28 @@
           </div>
         </div>
         <div class="row content obtenPremios">
-          <div class="col-xl-12">1</div>       
+          <div class="col-xl-12">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+          
+              <div class="item">
+                <div>
+                  <!-- <h3>¡Pasa los niveles<br>
+                  del mapa galáctico!</h3>
+                  <p>Habrá 3 modos de juegos distintos</p>
+                  <img src="img/imgPasaniveles.png" alt=""> -->
+                </div>
+              </div>
+              <div class="item"><h1>2</h1></div>
+            </div>
+          </div>       
         </div>
       </div>
     </section>
-    <section class="sectionD" style="background: radial-gradient(#0dbea3 0%, #004167 100%);">
+    <section class="sectionD">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
+            <img class="starDa" src="img/star1.png" alt="">
             <h2 class="text-center titleD">¡ADEMÁS!<br>
               En Bitel Aventuras 2 premiamos<br>
               a los jugadores más activos </h2>
@@ -273,11 +289,14 @@
           </div>
         </div>
     </section>
-    <section class="sectionF" style="background: radial-gradient(#0dbea3 0%, #004167 100%);">
+    <section class="sectionF">
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
+            <img class="starPa" src="img/star1.png" alt="">
             <img class="dimonF" src="img/dimon1.png" alt="">
+            <img class="starPb" src="img/star1.png" alt="">
+            <img class="coronaP" src="img/corona1.png" alt="">
             <h2 class="text-center">¡Conoce los paquetes<br>
               que tenemos para ti!</h2>
           </div>
@@ -295,15 +314,16 @@
               <div>
                 <img class="starFA" src="img/star1.png" alt="">
                 <img class="palentfA" src="img/planet02.png" alt="">
-                <img class="dimonfA"src="img/dimon1.png" alt="">
+                <img class="dimonfA" src="img/dimon1.png" alt="">
               </div>
   
               <div class="d-flex flex-column sectionNaveB">
-                  <img class="mascota2" src="img/mascota.png" alt="">
-                  <img class="bitelAventuras2" src="img/bitel-Aventuras2.png" alt="">
-                  <img class="palentfB" src="img/planet01.png" alt="">
-                </div>
-      
+                <img class="cohete-footer" src="img/cohete-footer.png" alt="">
+                <img class="mascota2" src="img/mascota.png" alt="">
+                <img class="bitelAventuras2" src="img/bitel-Aventuras2.png" alt="">
+                <img class="palentfB" src="img/planet01.png" alt="">
+              </div>
+
               <div>
                 <img class="palentfC" src="img/planet05.png" alt="">
                 <img class="starFB" src="img/star1.png" alt="">
@@ -313,7 +333,11 @@
         </div>
       </div>
     </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
