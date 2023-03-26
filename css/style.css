@@ -523,6 +523,7 @@ body{
 }
 
 .sectionE{
+    padding-top: 70px;
     padding-bottom: 60px;
 }
 
@@ -534,7 +535,7 @@ body{
 }
 
 .sectionE .planetaPremios{
-    max-width: 571px;
+
     margin: 0 auto;
     display: block;
 }
@@ -561,10 +562,12 @@ body{
 
 
 .sectionE .img__planetas{
+    height: 400px;
     background-image: url(../img/planet03.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px;
+    padding-top: 80px;
 
 }
 
@@ -593,6 +596,7 @@ body{
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center left;
+    padding-top: 100px;
 }
 
 .sectionF{
@@ -915,9 +919,6 @@ body{
     cursor: auto;
     margin: 0;
   }
-  .owl-item:not(.center) > div:hover {
-    opacity: .75;
-  }
 
 .paqueteDiamantes{
     width: 369px;
@@ -1004,4 +1005,155 @@ body{
 .paqueteTitleC span{
     font-weight: 700;
     font-size: 18px;
+    line-height: 1;
+}
+
+
+.secPaqCom{
+    margin: 20px 0;
+}
+
+.paqueteValoresA{
+    height: 40px;
+    background: #00C9E6;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 11.08px 11.08px 36.92px 11.08px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.paqueteValoresA .valorA{
+    background-color: #C9EDF4;
+    height: 100%;
+    width: 45%;
+    padding: 5px 20px;
+    border-radius: 11.08px 0 0 11.08px;
+    color: #00C9E6;
+}
+
+.paqueteValoresA .valorB{
+    height: 100%;
+    width: 50%;
+    padding: 5px 20px 5px 34px;
+}
+
+.paqueteValoresA .circleValor{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin: -50px auto 0;
+    z-index: 2;
+    position: relative;
+    border-radius: 50%;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 21px;
+    text-align: left;
+    color: #00C9E6;
+    padding-top: 16px;
+}
+
+
+.paqueteValoresB{
+    height: 40px;
+    background: #0DBEA3;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 11.08px 11.08px 36.92px 11.08px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.paqueteValoresB .valorA{
+    background-color: #D2EDE9;
+    height: 100%;
+    width: 45%;
+    padding: 5px 20px;
+    border-radius: 11.08px 0 0 11.08px;
+    color: #0DBEA3;
+}
+
+.paqueteValoresB .valorB{
+    height: 100%;
+    width: 50%;
+    padding: 5px 20px 5px 34px;
+}
+
+.paqueteValoresB .circleValor{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin: -50px auto 0;
+    z-index: 2;
+    position: relative;
+    border-radius: 50%;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 21px;
+    text-align: left;
+    color: #00C9E6;
+    padding-top: 16px;
+}
+
+.paqueteValoresC{
+    height: 40px;
+    background: #BF5AFF;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 11.08px 11.08px 36.92px 11.08px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.valorA{
+    background-color: #D9CFF2;
+    height: 100%;
+    width: 45%;
+    padding: 5px 20px;
+    border-radius: 11.08px 0 0 11.08px;
+    color: #BF5AFF;
+}
+
+.valorB{
+    height: 100%;
+    width: 50%;
+    padding: 5px 20px 5px 34px;
+    display: flex;
+    align-items: center;
+}
+
+.circleValor{
+    height: 60px;
+    width: 60px;
+    background: #fff;
+    margin: -50px auto 0;
+    z-index: 2;
+    position: relative;
+    border-radius: 50%;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 21px;
+    text-align: left;
+    color: #bf5bff;
+    padding-top: 16px;
+    margin-left: 127px;
+}
+
+.valorMoneda{
+    width: 30px!important;
+    height: 30px!important;
+    margin-left: 10px;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 230px;
+    margin: 0 auto;
 }

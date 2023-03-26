@@ -2,7 +2,6 @@ $(document).ready(function() {
  
     $("#owl-demo").owlCarousel({
         items:2,
-        navigationText:["prev","next"],
         responsive: {
             0: {
               items: 1,
