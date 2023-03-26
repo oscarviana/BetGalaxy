@@ -50,6 +50,10 @@ body{
     height: 43px;
 }
 
+.navbar-nav a:hover{
+    background: linear-gradient(#ff8c22 0%, #ffbc60 100%);
+}
+
 .navbar-nav a img{
     padding-right: 10px;
 }
@@ -369,7 +373,7 @@ body{
     font-weight: 700;
     font-size: 51px;
     color:#E7A7FF;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
 
 /* Section D */
@@ -508,15 +512,18 @@ body{
 .obtenPremios{
     background: url(../img/bgCombo.png);
     background-repeat: no-repeat;
-    height: 669px;
     background-position: center;
-
+    padding: 40px 0 90px;
 }
 
 
 
 .sectionC .container{
     padding: 42px 0 0;
+}
+
+.sectionE{
+    padding-bottom: 60px;
 }
 
 .sectionE h2{
@@ -552,6 +559,14 @@ body{
     margin: 20px 0 10px;
 }
 
+
+.sectionE .img__planetas{
+    background-image: url(../img/planet03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+
+}
 
 .BtnPremium::before{
     content: '';
@@ -591,6 +606,7 @@ body{
     font-weight: 700;
     font-size: 45px;
     line-height: 1.1;
+    padding-bottom: 60px;
 }
 
 .dimonF{
@@ -711,7 +727,6 @@ body{
 /* carousels */
 
 #owl-demo .item{
-    background: #3fbf79;
     padding: 30px 0px;
     margin: 10px;
     color: #FFF;
@@ -719,4 +734,274 @@ body{
     -moz-border-radius: 3px;
     border-radius: 3px;
     text-align: center;
+}
+
+  
+
+.premiosItemA,
+.premiosItemB{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.premiosItemA h3,
+.premiosItemB h3{
+    font-style: italic;
+    font-size: 34px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.premiosItemA p,
+.premiosItemB p{
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.premiosItemA{
+    position: relative;
+    width: 433.81px;
+    height: 431.14px;
+    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
+    border-radius: 30px;
+}
+
+.premiosItemA::before{
+    content: '';
+    position: absolute;
+    width: 433.81px;
+    height: 431.14px;
+    background: #281b41;
+    border-radius: 30px;
+    z-index: -1;
+    left: 11px;
+    bottom: -10px;
+}
+
+.premiosItemB::before{
+    content: '';
+    /* position: absolute;
+    width: 433.81px;
+    height: 431.14px;
+    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
+    border-radius: 30px;
+    z-index: -1; */
+
+}
+
+.premiosItemA img,
+.premiosItemB img{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.premiosItemB{
+    width: 433.81px;
+    height: 431.14px;
+    background: linear-gradient(#69228e 0%, #2b1352 100%);
+    border-radius: 30px;   
+}
+
+.carsouselPremios{
+    width: 372.62px;
+    height: 277.9px;
+    border-radius:  16px 16px  64px 16px;
+    background: linear-gradient(#bb02bb 0%, #000 100%);    
+    margin: 40px auto;
+}
+
+.premioTabla{
+    width: 296px;
+    margin: 0 auto;
+}
+
+.ptHeader{
+    width: 296px;
+    height: 41px;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.pTA{
+    height: 100%;
+    background: #C994D4;
+    width: 120px;
+    color: #B441D3;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.pTB{
+    width: 198px;
+    background: #B84CD3;
+    border-radius: 0 5px 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ptBody{
+    width: 296px;
+    justify-content: space-between;
+}
+
+.tBA{
+    width: 112px;
+    background: #C69AC6;
+    border-radius: 10px;
+}
+
+.tBB{
+    background: #bb52da;
+    border-radius: 10px;
+    width: 174px;
+}
+
+.tBA p,
+.tBB p{
+    margin: 10px;
+}
+
+.pTextTB{
+    line-height: .75;
+}
+
+.owl-prev{
+    width: 24px;
+    height: 24px;
+    background: #fff!important;
+    border-radius: 50%;
+    margin-left: 10px;    
+}
+
+.owl-next{
+    width: 24px;
+    height: 24px;
+    background: #fff!important;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+    background: rgba(255, 255, 255, 0.7)!important;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    top: -124px;
+    position: relative;
+}
+
+.owl-next span,
+.owl-prev span{
+    position: relative;
+    font-size: 40px;
+    top: -23px;
+}
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
   }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }
+
+.paqueteDiamantes{
+    width: 369px;
+    height: 383.29px;
+    border-radius: 16px 16px 64px 16px;
+    background: linear-gradient(#008ea3 0%, #00c5e3 100%);   
+    margin: 0 auto;
+}
+
+.paqueteMonedas{
+    width: 369px;
+    height: 450.32px;
+    border-radius: 16px 16px 32px 16px;
+    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
+    margin: 0 auto;
+}
+
+.paqueteVidas{
+    width: 369px;
+    height: 383.29px;
+    border-radius: 16px 16px 32px 16px;
+    background: linear-gradient(#bb02bb 0%, #000 100%);
+    margin: 0 auto;
+}
+
+.paqueteDiamantes,
+.paqueteMonedas,
+.paqueteVidas{
+    padding-top: 60px;
+    margin-top: -28px;
+}
+
+
+.paqueteDiamantes p,
+.paqueteMonedas p,
+.paqueteVidas p{
+    line-height: 1.2;
+}
+
+
+.paqueteTitleC{
+    width: 289px;
+    height: 60px;
+    border-radius: 16px 16px 32px 16px;
+    background: linear-gradient(#008ea3 0%, #00c5e3 100%);   
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.paqueteTitleB{
+    width: 289px;
+    height: 60px;
+    border-radius: 16px 16px 32px 16px;
+    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);  
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.paqueteTitleA{
+    width: 289px;
+    height: 60px;
+    border-radius: 16px 16px 32px 16px;
+    background: linear-gradient(#8901de 0%, #601191 100%);
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.paqueteTitleA img,
+.paqueteTitleB img,
+.paqueteTitleC img{
+    width: 39px!important;
+    height: 37px;
+    margin: 0 20px;
+}
+
+.paqueteTitleA span,
+.paqueteTitleB span,
+.paqueteTitleC span{
+    font-weight: 700;
+    font-size: 18px;
+}
