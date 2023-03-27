@@ -2122,9 +2122,7 @@ body{
     }
 
     .planets .star1 {
-        position: absolute;
-        left: 310px;
-        top: 80px;
+        display: none;
     }
 
     .planets .bell01 {
