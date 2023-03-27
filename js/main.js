@@ -110,3 +110,4 @@ $(document).ready(function() {
       $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
     });
   })
+  
