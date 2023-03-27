@@ -1177,6 +1177,15 @@ body{
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
+
+    .navbar-nav{
+        background: #00000047;
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        margin: 10px 20px;
+    }
+
        .planets .planet04{
         display: none;
     }
@@ -1400,6 +1409,15 @@ body{
 
 
 @media (min-width: 531px) and (max-width: 640px) {
+
+
+    .navbar-nav{
+        background: #00000047;
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        margin: 10px 20px;
+    }
 
     .planets .planet04{
         display: none;
@@ -1625,6 +1643,14 @@ body{
 
 @media (min-width: 481px) and (max-width: 530px) {
 
+    .navbar-nav{
+        background: #00000047;
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        margin: 10px 20px;
+    }
+
     .planets .planet04{
         display: none;
     }
@@ -1845,6 +1871,15 @@ body{
 
 
 @media (min-width: 413px) and (max-width: 480px) {
+    
+
+    .navbar-nav{
+        background: #00000047;
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        margin: 10px 20px;
+    }
 
     .planets .planet04{
         display: none;
@@ -2064,6 +2099,14 @@ body{
 }
 
 @media (max-width: 412px){
+
+    .navbar-nav{
+        background: #00000047;
+        padding: 10px 0;
+    }
+    .navbar-nav a{
+        margin: 10px 20px;
+    }
 
     .planets .planet04{
         display: none;
