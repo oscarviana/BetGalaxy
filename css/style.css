@@ -203,8 +203,8 @@ body{
 }
 
 .juegaAqui .socialNet{
-    width: 50.66px;
-    height: 50.66px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background: linear-gradient( rgba(28, 21, 42, 0) 0%,  #1c152a 100%);
     opacity: 0.5;
@@ -214,8 +214,8 @@ body{
 }
 
 .socialNetInt{
-    width: 34.57px;
-    height: 34.57px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     background: linear-gradient(#ad4bea 0%, #643b95 100%);
     border: 1px solid #8d43cc;
@@ -223,7 +223,7 @@ body{
 
 .socialNetInt img{
     margin: 0 -1px;
-    width: 40px;
+    width: 50px;
 }
 
 .burbuja{
@@ -579,14 +579,14 @@ body{
 .BtnPremium::before{
     content: '';
     background-image: url(../img/corona1.png);
-    background-size: 95px;
+    background-size: 65px;
     background-repeat: no-repeat;
     right: -20px;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     position: absolute;
-    top: -22px;
-    rotate: 40deg;
+    top: -8px;
+    rotate: 20deg;
     text-transform: uppercase;
 }
 
@@ -939,6 +939,7 @@ body{
     border-radius: 16px 16px 32px 16px;
     background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
     margin: 0 auto;
+    width: 339px;
 }
 
 .paqueteVidas{
@@ -1165,6 +1166,14 @@ body{
 
 /*Media queries*/
 
+@media (min-width: 1025px){
+
+    .nav-movil{
+        display: none;
+    }
+
+}
+
 @media (min-width: 769px) and (max-width: 1024px){
 
     .navbar-nav{
@@ -1174,6 +1183,14 @@ body{
     .navbar-nav a{
         margin: 10px 20px;
     }
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
+    }
+
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -1185,6 +1202,15 @@ body{
     .navbar-nav a{
         margin: 10px 20px;
     }
+
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
+    }
+
 
        .planets .planet04{
         display: none;
@@ -1405,6 +1431,10 @@ body{
         position: absolute;       
         right: 0;
     }
+
+    .cardA h4{
+        text-align: center;
+    } 
 }
 
 
@@ -1418,6 +1448,15 @@ body{
     .navbar-nav a{
         margin: 10px 20px;
     }
+
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
+    }
+
 
     .planets .planet04{
         display: none;
@@ -1638,6 +1677,10 @@ body{
         position: absolute;       
         right: 0;
     }
+
+    .cardA h4{
+        text-align: center;
+    } 
 }
 
 
@@ -1649,6 +1692,14 @@ body{
     }
     .navbar-nav a{
         margin: 10px 20px;
+    }
+
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
     }
 
     .planets .planet04{
@@ -1867,6 +1918,10 @@ body{
         position: absolute;       
         right: 0;
     }
+
+    .cardA h4{
+        text-align: center;
+    } 
 }
 
 
@@ -1879,6 +1934,14 @@ body{
     }
     .navbar-nav a{
         margin: 10px 20px;
+    }
+
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
     }
 
     .planets .planet04{
@@ -1961,7 +2024,7 @@ body{
     }
 
     .sectionC h2 {
-        font-size: 45px;
+        font-size: 42px;
     }
 
     .sectionD{
@@ -2028,6 +2091,8 @@ body{
 
     .sectionE .BtnPremium {
         margin: 20px 0 10px 14px;
+        width: 316px;
+        padding-left: 22px;
     }
 
     .sectionE h2 {
@@ -2096,6 +2161,10 @@ body{
         position: absolute;       
         right: 0;
     }
+
+    .cardA h4{
+        text-align: center;
+    } 
 }
 
 @media (max-width: 412px){
@@ -2107,6 +2176,15 @@ body{
     .navbar-nav a{
         margin: 10px 20px;
     }
+
+    .nav-link img{
+        display: none;
+    }
+    
+    .nav-web{
+        display: none;
+    }
+
 
     .planets .planet04{
         display: none;
@@ -2186,7 +2264,7 @@ body{
     }
 
     .sectionC h2 {
-        font-size: 45px;
+        font-size: 42px;
     }
 
     .sectionD{
@@ -2254,6 +2332,8 @@ body{
 
     .sectionE .BtnPremium {
         margin: 20px 0 10px 14px;
+        width: 316px;
+        padding-left: 22px;
     }
 
     .sectionE h2 {
@@ -2318,6 +2398,10 @@ body{
         position: absolute;       
         right: 0;
     }
+
+    .cardA h4{
+        text-align: center;
+    } 
 }
 
 
