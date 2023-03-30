@@ -641,6 +641,7 @@ body{
 .coronaP{
     position: absolute;
     right: 10%;
+    width: 40px;
 }
 
 .sectionG {
@@ -2064,6 +2065,10 @@ body{
         justify-content: normal;
     }
 
+    .sectionC{
+        padding: 0 12px;
+    }
+
     .sectionD .winTicket{
         display: block!important;
     }
@@ -2116,6 +2121,7 @@ body{
     .sectionF .coronaP {
         position: absolute;
         right: 0;
+        right: 20px;
     }
 
     .sectionF .dimonF {
@@ -2250,6 +2256,10 @@ body{
         width: 100%;
     }    
 
+    .sectionC{
+        padding: 0 12px;
+    }
+
     .cardGanafondo {
         position: relative;
         width: 100%;
@@ -2360,8 +2370,10 @@ body{
 
     .sectionF .coronaP {
         position: absolute;
-        right: 0;
+        right: 20px;
     }
+
+    
 
     .sectionF .dimonF {
         width: 80px;
