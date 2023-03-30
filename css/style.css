@@ -2167,6 +2167,10 @@ body{
     .cardA h4{
         text-align: center;
     } 
+
+    .sectCards p{
+        padding-bottom: 20px;
+    }
 }
 
 @media (max-width: 412px){
@@ -2404,6 +2408,10 @@ body{
     .cardA h4{
         text-align: center;
     } 
+
+    .sectCards p{
+        padding-bottom: 20px;
+    }
 }
 
 
