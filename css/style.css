@@ -207,10 +207,13 @@ body{
     height: 60px;
     border-radius: 50%;
     background: linear-gradient( rgba(28, 21, 42, 0) 0%,  #1c152a 100%);
-    opacity: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.juegaAqui .socialNet:hover{
+    opacity: 0.85;
 }
 
 .socialNetInt{
@@ -251,11 +254,12 @@ body{
 
 .sectionB{
     padding-top: 58px;
+    margin-bottom: -110px;
 }
 
-.sectionB h2{
-        font-weight: 800;
-        font-size: 44px;
+.carsouselPremios.sectionB h2{
+        font-weight: 700;
+        font-size: 38px;
         color:#E7A7FF;
         font-style: italic;
 }
@@ -344,6 +348,12 @@ body{
     color: #fff;
     font-weight: 700;
     border: none;
+    cursor: default!important;
+}
+
+.text-tabPremios{
+    margin-top: 30px;
+    margin-bottom: -10px;
 }
 
 .btnRegMonedas {
@@ -363,10 +373,6 @@ body{
     rotate: 24deg;
 }
 
-.btnRegMonedas:hover{
-    background: linear-gradient( #630a84 0%, #dd69f8 100%);
-}
-
 .cardPremios2{
     width: 769.4px;
     height: 229.97px;
@@ -378,7 +384,7 @@ body{
 
 .sectionC h2{
     font-weight: 700;
-    font-size: 51px;
+    font-size: 38px;
     color:#E7A7FF;
     padding-bottom: 10px;
 }
@@ -402,8 +408,8 @@ body{
 }
 
 .sectionD h2{
-    font-weight: 800;
-    font-size: 37px;
+    font-weight: 700;
+    font-size: 38px;
     line-height: 1.1;
     font-style: italic;
 }
@@ -535,8 +541,8 @@ body{
 }
 
 .sectionE h2{
-    font-weight: 800;
-    font-size: 41px;
+    font-weight: 700;
+    font-size: 38px;
     line-height: 1.1;
     font-style: italic;
 }
@@ -615,7 +621,7 @@ body{
 
 .sectionF h2{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 38px;
     line-height: 1.1;
     padding-bottom: 60px;
 }
@@ -805,7 +811,7 @@ body{
 
 .premiosItemA img,
 .premiosItemB img{
-    max-width: 400px;
+    width: 300px!important;
     margin: 0 auto;
 }
 
@@ -821,8 +827,9 @@ body{
     height: 277.9px;
     border-radius:  16px 16px  64px 16px;
     background: linear-gradient(#bb02bb 0%, #000 100%);    
-    margin: 40px auto;
+    margin: 40px auto 20px;
 }
+
 
 .premioTabla{
     width: 296px;
@@ -839,7 +846,7 @@ body{
 .pTA{
     height: 100%;
     background: #C994D4;
-    width: 120px;
+    width: 86px;
     color: #B441D3;
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -848,7 +855,7 @@ body{
 }
 
 .pTB{
-    width: 198px;
+    width: 210px;
     background: #B84CD3;
     border-radius: 0 5px 40px 0;
     display: flex;
@@ -862,7 +869,7 @@ body{
 }
 
 .tBA{
-    width: 112px;
+    width: 86px;
     background: #C69AC6;
     border-radius: 10px;
 }
@@ -870,12 +877,16 @@ body{
 .tBB{
     background: #bb52da;
     border-radius: 10px;
-    width: 174px;
+    width: 202px;
 }
 
 .tBA p,
 .tBB p{
     margin: 10px;
+}
+
+.monedasTyc{
+    margin-bottom: 90px;
 }
 
 .pTextTB{
@@ -942,7 +953,6 @@ body{
     border-radius: 16px 16px 32px 16px;
     background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
     margin: 0 auto;
-    width: 339px;
 }
 
 .paqueteVidas{
@@ -1189,11 +1199,31 @@ body{
     .nav-link img{
         display: none;
     }
+
+    .cardB h4{
+        text-align: center;
+    }
+
+    .cardA p{
+        width: 100%;
+    }
+
+    .cardA h4{
+        text-align: center;
+    }
+    .cardA .card-body{
+        padding-left: 60px;
+    }
     
     .nav-web{
         display: none;
     }
-
+    .premiosAcomula{
+        display: none;
+    }
+    .planetaPremios{
+        display: none;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -1326,15 +1356,17 @@ body{
     }
     
     .cardPremios2 .card-title{
-        padding-left: 0;
+        margin: 0 auto;
+        text-align: center;
+        padding-left:0 ;
     }
 
     .cardB p {
         font-size: 15px;
     }
 
-    .cardB .bloqueCard{
-        justify-content: normal;
+    .cardB .bloqueCard {
+        justify-content: center;
     }
 
     .sectionD .winTicket{
@@ -1382,6 +1414,7 @@ body{
 
     .sectionF .starPb {
         left: 2%;
+        margin-top: -100px;
     }
 
     .sectionF .coronaP {
@@ -1579,8 +1612,10 @@ body{
         font-size: 15px;
     }
 
-    .cardB .bloqueCard{
-        justify-content: normal;
+    .cardPremios2 .card-title{
+        margin: 0 auto;
+        text-align: center;
+        padding-left:0 ;
     }
 
     .sectionD .winTicket{
@@ -1820,8 +1855,10 @@ body{
         font-size: 15px;
     }
 
-    .cardB .bloqueCard{
-        justify-content: normal;
+    .cardPremios2 .card-title{
+        margin: 0 auto;
+        text-align: center;
+        padding-left:0 ;
     }
 
     .sectionD .winTicket{
@@ -2061,10 +2098,11 @@ body{
         font-size: 15px;
     }
 
-    .cardB .bloqueCard{
-        justify-content: normal;
+    .cardPremios2 .card-title{
+        margin: 0 auto;
+        text-align: center;
+        padding-left:0 ;
     }
-
     .sectionC{
         padding: 0 12px;
     }
@@ -2314,8 +2352,10 @@ body{
         font-size: 15px;
     }
 
-    .cardB .bloqueCard{
-        justify-content: normal;
+    .cardPremios2 .card-title{
+        margin: 0 auto;
+        text-align: center;
+        padding-left:0 ;
     }
 
     .sectionD .winTicket{
