@@ -27,8 +27,12 @@ body{
     height: 100%;
 }
 
+.shadowGalaxy .container{
+    position: relative;
+}
+
 .navbar{
-    padding: 16px 0;
+    padding: 30px 0;
     z-index: 3;
 }
 
@@ -149,10 +153,12 @@ body{
 
 .sectionNave{
     max-width: 529px;
-    margin: 192px auto 0;
+    margin: 0 auto;
     align-items: center;
     z-index: 5;
     position: relative;
+    height: 100%;
+    bottom: -250px;
 }
 
 .sectionNave .mascota{
@@ -162,9 +168,9 @@ body{
 
 
 .planeta01{
-    margin: 0 auto;
+    margin: 19px auto 0;
     width: 284px;
-    margin-top: -230px;
+    width: 284px;
 }
 
 .juegaAqui{
@@ -540,6 +546,11 @@ body{
     padding-bottom: 60px;
 }
 
+.sectionE .btnModal{
+    background: none;
+    border: none;
+}
+
 .sectionE h2{
     font-weight: 700;
     font-size: 38px;
@@ -608,8 +619,122 @@ body{
     background-image: url(../img/star1.png);
     background-size: 30px;
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: left 70px;
     padding-top: 100px;
+}
+
+/* modal */
+.modal-dialog{
+    margin-top: 10%;
+}
+
+.bgModalBitel{
+    background: #281B41;
+}
+
+.closeModal{
+    margin: 0 auto;
+    cursor: pointer!important;
+    background: #281B41;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+    color: white!important;
+    margin-bottom: 20px;
+    background-image: url(../img/X.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal-content{
+    background: none;
+    border: none;
+}
+
+.modal-content p{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;    
+}
+
+.modalDatos{
+    width: 200px;
+    height: 42px;
+    background: #FFF;
+    margin: 0 auto 10px;
+    border-radius: 0 20px 80px 0;
+}
+
+.modalDatos p{
+    color: #281b41;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.modal-header,
+.modal-footer{
+    border: none;
+}
+
+.modal-header{
+    padding-top: 30px;
+    border-radius:20px 20px 0 0;
+}
+.modal-footer{
+    padding-bottom: 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+.modal-title{
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 24px!important;
+    color: #ff9c36;
+    font-weight: 700;
+}
+
+.btnOpen{
+    color: #FFFFFF;
+    border-radius: 18px;
+    background: linear-gradient(#ffbc60 0%, #ff8c22 100%);
+    text-transform: uppercase;
+    border: 2px solid #ffa23e;
+    font-weight: 700;
+    font-style: italic;
+    padding: 7px 8%!important;
+}
+
+.modal-body h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 30px!important;
+}
+
+.mensajeModal{
+    font-style: normal!important;
+    font-size: 20px;
+}
+
+.btnOpen:hover{
+    color: #281B41;
+}
+
+.btnClose{
+    color: #FFFFFF;
+    border-radius: 18px;
+    border: 2px solid #ffa23e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    padding: 7px 6.8%!important;
+}
+
+.btnClose:hover{
+    color: #ffa23e;
 }
 
 .sectionF{
@@ -744,17 +869,59 @@ body{
 
 /* carousels */
 
-#owl-demo .item{
-    padding: 30px 0px;
-    margin: 10px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-align: center;
+
+#owl-demo .owl-prev{
+    width: 30px;
+    height: 30px;
+    background: #fff!important;
+    border-radius: 50%;  
+    margin-left: 0px;
 }
 
-  
+
+#owl-demo .owl-next{
+    width: 30px;
+    height: 30px;
+    background: #fff!important;
+    border-radius: 50%;
+    float: right;
+    margin-right: 0px;
+}
+
+
+#owl-demo .owl-prev:hover,
+#owl-demo .owl-next:hover{
+    background: rgba(255, 255, 255, 0.7)!important;
+}
+
+#owl-demo .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    position: relative;
+    top: -210px;
+    z-index: 1;
+}
+
+
+#owl-demo .owl-next span,
+#owl-demo .owl-prev span{
+    position: relative;
+    font-size: 40px;
+    top: -20px;
+}
+
+
+#owl-demo .owl-item > div {
+    cursor: pointer;
+    transition: margin 0.4s ease;
+  }
+
+#owl-demo .owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+
 
 .premiosItemA,
 .premiosItemB{
@@ -800,13 +967,6 @@ body{
 
 .premiosItemB::before{
     content: '';
-    /* position: absolute;
-    width: 433.81px;
-    height: 431.14px;
-    background: linear-gradient(#0dbea3 0%, #0afcd7 100%);
-    border-radius: 30px;
-    z-index: -1; */
-
 }
 
 .premiosItemA img,
@@ -822,7 +982,7 @@ body{
     border-radius: 30px;   
 }
 
-.carsouselPremios{
+div.carsouselPremios{
     width: 372.62px;
     height: 277.9px;
     border-radius:  16px 16px  64px 16px;
@@ -893,7 +1053,8 @@ body{
     line-height: .75;
 }
 
-.owl-prev{
+#tablaPremios .owl-prev,
+#premiosAcomulativos .owl-prev{
     width: 24px;
     height: 24px;
     background: #fff!important;
@@ -901,7 +1062,8 @@ body{
     margin-left: 10px;    
 }
 
-.owl-next{
+#tablaPremios .owl-next,
+#premiosAcomulativos .owl-next{
     width: 24px;
     height: 24px;
     background: #fff!important;
@@ -909,35 +1071,43 @@ body{
     margin-right: 10px; 
 }
 
-.owl-prev:hover,
-.owl-next:hover{
+#tablaPremios .owl-prev:hover,
+#tablaPremios .owl-next:hover,
+#premiosAcomulativos .owl-prev:hover,
+#premiosAcomulativos .owl-next:hover{
     background: rgba(255, 255, 255, 0.7)!important;
 }
 
-.owl-nav{
+#tablaPremios .owl-nav,
+#premiosAcomulativos .owl-nav{
     display: flex;
     justify-content: space-between;
     color: rebeccapurple;
     top: -124px;
     position: relative;
+    z-index: 1;
 }
-
-.owl-next span,
-.owl-prev span{
+#tablaPremios .owl-next span,
+#tablaPremios .owl-prev span,
+#premiosAcomulativos .owl-next span,
+#premiosAcomulativos .owl-prev span{
     position: relative;
     font-size: 40px;
     top: -23px;
 }
 
-.owl-item > div {
+#premiosAcomulativos .owl-item > div,
+#tablaPremios .owl-item > div {
     cursor: pointer;
     margin: 6% 8%;
     transition: margin 0.4s ease;
   }
-  .owl-item.center > div {
-    cursor: auto;
-    margin: 0;
-  }
+
+#premiosAcomulativos .owl-item.center > div, 
+#tablaPremios .owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
 
 .paqueteDiamantes{
     width: 369px;
@@ -1032,6 +1202,11 @@ body{
     margin: 20px 0;
 }
 
+.secPaqCom a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .paqueteValoresA{
     height: 40px;
     background: #00C9E6;
@@ -1041,8 +1216,31 @@ body{
     font-weight: 700;
     font-style: italic;
     font-size: 20px;
+    position: relative;
+    cursor: pointer;
 }
 
+.paqueteValoresA:hover::after{
+    background: #99daee;
+}
+
+.paqueteValoresA::after{
+    content: '➞';
+    color: #00C9E6;
+    font-style: normal;
+    background: #BFDFE9;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    position: absolute;
+    right: -9px;
+    bottom: 10px;
+
+    transition: all ease 0.3s;
+    line-height: 1.2;
+    padding-left: 3px;
+    font-size: 18px;
+}
 
 .paqueteValoresA .valorA{
     background-color: #C9EDF4;
@@ -1075,7 +1273,6 @@ body{
     padding-top: 16px;
 }
 
-
 .paqueteValoresB{
     height: 40px;
     background: #0DBEA3;
@@ -1085,6 +1282,29 @@ body{
     font-weight: 700;
     font-style: italic;
     font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.paqueteValoresB:hover::after{
+    background: #7beedd;
+}
+
+.paqueteValoresB::after{
+    content: '➞';
+    background: #C3D4DA;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all ease 0.3s;
+    right: -9px;
+    bottom: 10px;
+    line-height: 1.2;
+    padding-left: 3px;
+    font-size: 18px;
+    font-style: normal;
+    color: #0DBEA3;
 }
 
 
@@ -1119,6 +1339,7 @@ body{
     padding-top: 16px;
 }
 
+
 .paqueteValoresC{
     height: 40px;
     background: #BF5AFF;
@@ -1128,6 +1349,29 @@ body{
     font-weight: 700;
     font-style: italic;
     font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.paqueteValoresC:hover::after{
+    background: #c995ec;
+}
+
+.paqueteValoresC::after{
+    content: '➞';
+    color: #BF5AFF;
+    background: #DEC4EF;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all ease 0.3s;
+    right: -9px;
+    bottom: 10px;
+    line-height: 1.2;
+    padding-left: 3px;
+    font-size: 18px;
+    font-style: normal;
 }
 
 .valorA{
@@ -1171,10 +1415,84 @@ body{
 }
 
 
+.owl-carousel .owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+}
+
+
 .owl-carousel .owl-item img {
     display: block;
     width: 230px;
     margin: 0 auto;
+}
+
+.owl-carousel .owl-prev{
+    width: 30px;
+    height: 30px;
+    background: #fff!important;
+    border-radius: 50%;  
+    margin-left: 0px;
+}
+
+
+.owl-carousel .owl-next{
+    width: 30px;
+    height: 30px;
+    background: #fff!important;
+    border-radius: 50%;
+    float: right;
+    margin-right: 0px;
+}
+
+
+.owl-carousel .owl-prev:hover,
+.owl-carousel .owl-next:hover{
+    background: rgba(255, 255, 255, 0.7)!important;
+}
+
+.owl-carousel .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    position: relative;
+    top: -300px;
+    z-index: 1;
+}
+
+
+.owl-carousel .owl-next span,
+.owl-carousel .owl-prev span{
+    position: relative;
+    font-size: 40px;
+    top: -20px;
+}
+
+
+.owl-carousel .owl-item > div {
+    cursor: pointer;
+    transition: margin 0.4s ease;
+  }
+
+.owl-carousel .owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+
+@media (min-width: 1026px) and (max-width: 1399px){
+    #Conoce-paquetes .owl-item{
+        width: 370px!important;
+        margin: 0 1px;
+    }
+
+    #Conoce-paquetes .owl-item .item{
+        margin: 0 auto;
+    }
+
+    #Conoce-paquetes .owl-item.owl-item > div {
+        margin: 0 auto;
+    }
 }
 
 /*Media queries*/
@@ -1185,6 +1503,13 @@ body{
         display: none;
     }
 
+    #owl-demo .owl-nav{
+        display: none;
+    }
+
+    /* #Conoce-paquetes .owl-item{
+        width: 380px!important;
+    } */
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -1224,6 +1549,20 @@ body{
     .planetaPremios{
         display: none;
     }
+    .owl-carousel .owl-prev {
+        margin-left: -60px;
+    }
+    .owl-carousel .owl-next{
+        margin-right: -60px;  
+    }
+
+    #owl-demo .owl-nav{
+        display: none;
+    }
+
+    /* #Conoce-paquetes .owl-item{
+        width: 432px!important;
+    } */
 }
 
 @media (min-width: 641px) and (max-width: 768px) {
@@ -2215,6 +2554,10 @@ body{
     .sectCards p{
         padding-bottom: 20px;
     }
+
+    #owl-demo .owl-nav{
+        display: none;
+    }
 }
 
 @media (max-width: 412px){
@@ -2421,9 +2764,6 @@ body{
         margin: 28px auto 0;
     }
 
-    .sectionG{
-   
-    }
 
     .sectionNaveB .cohete-footer {
         z-index: 2;
@@ -2464,6 +2804,7 @@ body{
     .sectCards p{
         padding-bottom: 20px;
     }
+
 }
 
 
@@ -2479,3 +2820,5 @@ body{
 
 @media (min-width: 1537px) {
 }   */
+
+

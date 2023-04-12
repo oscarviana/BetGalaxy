@@ -1,113 +1,117 @@
 $(document).ready(function() {
  
-    $("#owl-demo").owlCarousel({
-        items:2,
-        responsive: {
-            0: {
-              items: 1,
-              nav: false,
-              center: true,
-              dots: true  
-            },
-            680: {
-              items: 1,
-              nav: false,
-              loop: true
-            },
-            1000: {
-              items: 2,
-              nav: true
-            }
-        }
-    });
-   
-  });
-
-  $(document).ready(function() {
- 
-    $("#tablaPremios").owlCarousel({
-        items:1,
-        responsive: {
-            0: {
-              items: 1,
-              nav: false,
-              center: true,
-              dots: true  
-            },
-            680: {
-              items: 1,
-              nav: false,
-              loop: true
-            },
-            1000: {
-              items: 1,
-              nav: true
-            }
-          }
-    });
-   
-  });
-
-  $(document).ready(function() {
- 
-    $("#premiosAcomulativos").owlCarousel({
-        items:2,
-        responsive: {
-            0: {
-              items: 1,
-              nav: false,
-              center: true,
-              dots: true  
-            },
-            680: {
-              items: 1,
-              nav: false,
-              loop: true
-            },
-            1000: {
-              items: 1,
-              nav: true
-            }
-          }
-    });
-   
-  });
-
-
-  $(document).ready(function(){
-    let $owl = $('.owl-carousel');
-
-    $owl.children().each( function( index ) {
-      $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
-    });
-    
-    $owl.owlCarousel({
-      center: true,
-      loop: true,
-      items: 3,
+  $("#owl-demo").owlCarousel({
+      items:2,
       responsive: {
-        0: {
-          items: 1,
-          nav: false,
-          center: true,
-          dots: true  
-        },
-        680: {
-          items: 2,
-          nav: false,
-          loop: true
-        },
-        1000: {
-          items: 3,
-          nav: true
-        }
+          0: {
+            items: 1,
+            nav: false,
+            center: true,
+            dots: true  
+          },
+          680: {
+            items: 1,
+            nav: false,
+            loop: true
+          },
+          1000: {
+            items: 2,
+            nav: true
+          }
       }
-    });
-    
-    
-    $(document).on('click', '.owl-item>div', function() {
-      let $speed = 300;  // in ms
-      $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
-    });
-  })
+  });
+ 
+});
+
+$(document).ready(function() {
+
+  $("#tablaPremios").owlCarousel({
+      items:1,
+      responsive: {
+          0: {
+            items: 1,
+            nav: false,
+            center: true,
+            dots: true  
+          },
+          680: {
+            items: 1,
+            nav: false,
+            loop: true
+          },
+          1000: {
+            items: 1,
+            nav: true
+          }
+        }
+  });
+ 
+});
+
+$(document).ready(function() {
+
+  $("#premiosAcomulativos").owlCarousel({
+      items:2,
+      responsive: {
+          0: {
+            items: 1,
+            nav: false,
+            center: true,
+            dots: true  
+          },
+          680: {
+            items: 1,
+            nav: false,
+            loop: true
+          },
+          1000: {
+            items: 1,
+            nav: true
+          }
+        }
+  });
+ 
+});
+
+
+$(document).ready(function(){
+  let $owl = $('.owl-carousel');
+
+  $owl.children().each( function( index ) {
+    $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
+  });
   
+  $owl.owlCarousel({
+    center: true,
+    loop: true,
+    items: 3,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+        center: true,
+        dots: true,
+        loop: true  
+      },
+      680: {
+        items: 2,
+        nav: true,
+        loop: true
+      },
+      1000: {
+        items: 3,
+        nav: false
+      },
+      1200: {
+        items: 3,
+        nav: false
+      }
+    }
+  });
+  
+  
+  $(document).on('click', '.owl-item>div', function() {
+    let $speed = 300;  // in ms
+    $owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
+  });
+})
