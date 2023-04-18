@@ -270,6 +270,11 @@ body{
         font-style: italic;
 }
 
+.queEs h2{
+    font-weight: 700;
+    font-size: 38px;
+}
+
 .bitelGame{
     max-width: 100%;
     margin: 0 auto;
@@ -279,7 +284,7 @@ body{
 .planetking{
     width: 200px;
     display: inline;
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     right: 49%;
     margin-top: 92px;
@@ -1569,7 +1574,7 @@ div.carsouselPremios{
     }
 
 
-       .planets .planet04{
+    .planets .planet04{
         display: none;
     }
     .planets .cohete1 {
@@ -1614,6 +1619,8 @@ div.carsouselPremios{
 
     .sectionB h2{
         text-align: center;
+        font-weight: 700;
+        font-size: 38px;
     }
 
     .sectionB p{
