@@ -68,7 +68,6 @@ body{
 }
 
 .sectionA{
-    background-image: url(polvoGalactico.svg);
     position: relative;
     height: 800px;
     width: 100%;
@@ -768,9 +767,6 @@ body{
 .sectionG {
     margin: 0 auto;
     position: relative;
-    background-image: url(polvoGalactico.svg);
-    background-position: center;
-    background-repeat: no-repeat;
     height: 850px;
 }
 
