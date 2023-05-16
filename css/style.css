@@ -440,7 +440,8 @@ body{
 
 .cardA img{
     position: relative;
-    height: 390px;
+    /* height: 390px; */
+    height: 375px; 
     margin-left: -160px;
     margin-top: -95px;
 }
@@ -547,7 +548,8 @@ body{
 
 .sectionE{
     padding-top: 70px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
+    padding-bottom: 190px;
 }
 
 .sectionE .btnModal{
@@ -992,7 +994,7 @@ div.carsouselPremios{
 .pTA{
     height: 100%;
     background: #C994D4;
-    width: 86px;
+    width: 76px;
     color: #B441D3;
     border-radius: 5px 0 0 5px;
     display: flex;
@@ -1010,12 +1012,12 @@ div.carsouselPremios{
 }
 
 .ptBody{
-    width: 296px;
+    width: 280px;
     justify-content: space-between;
 }
 
 .tBA{
-    width: 86px;
+    width: 70px;
     background: #C69AC6;
     border-radius: 10px;
 }
@@ -1410,7 +1412,8 @@ div.carsouselPremios{
 
 .owl-carousel .owl-item img {
     display: block;
-    width: 230px;
+/*    width: 230px;  */
+    width: 275px;
     margin: 0 auto;
 }
 
@@ -2699,7 +2702,7 @@ div.carsouselPremios{
 
     .sectionD .premioTabla {
         width: 296px;
-        margin: 20px 27px;
+        margin: 20px 45px;
     }
 
 
@@ -2737,6 +2740,7 @@ div.carsouselPremios{
 
     .sectionF .starPb {
         left: 2%;
+        display: none;
     }
 
     .sectionF .coronaP {
@@ -2808,5 +2812,4 @@ div.carsouselPremios{
 
 @media (min-width: 1537px) {
 }   */
-
 
