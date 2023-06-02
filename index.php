@@ -888,9 +888,10 @@
 		
 		
 		function premium(msisdn, typeSub){
-			var msisdn = 51910831869;
+			//var msisdn = 51910831869;
+			var msisdn = 51929561265;
+			var typeSub = 48;//36 daily, 37 weekly, 38 monthly
 			//var typeSub = 47; //47 daily, 48 weekly, 49 monthly
-			var typeSub = 36; //36 daily, 37 weekly, 38 monthly
 			
 			var settings = {
             "url": "https://silvestre.3dm.com.co/3dmpemps/public/local/charge/register",
@@ -910,8 +911,10 @@
             }),
             };
             
+            
+            
             //console.log(settings);
-            console.log("RESPONSE PREMIUM");  
+            console.log("RESPONSE PREMIUM", typeSub);  
             $.ajax(settings).done(function (response) {
                 console.log(response);
                 
